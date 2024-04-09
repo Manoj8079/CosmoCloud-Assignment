@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
-from .database import students_collection
-from .schemas import StudentCreate, StudentUpdate
-from .models import Student
+from database import students_collection
+from schemas import StudentCreate, StudentUpdate
+from models import Student
 from typing import List
 from bson import ObjectId
 
